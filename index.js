@@ -13,4 +13,8 @@ app.get('/', function (req, res) {
     res.send("API Up and Running");
 });
 
+app.get('/health',function(req,res){
+    res.send("healthy");
+});
+
 
